@@ -17,12 +17,12 @@ namespace DataReaderMapper.Tests
         {
             var mapper = DataReaderMap<Employee>.CreateMap();
 
-            var list = mapper.ProjectToEnumerable(Authenticate().CreateDataReader()).ToList();
+            var list = mapper.ProjectToEnumerable(GetSomeDataTable().CreateDataReader()).ToList();
 
         }
 
 
-        public static DataTable Authenticate()
+        public static DataTable GetSomeDataTable()
         {
             var dt = new DataTable();
 
