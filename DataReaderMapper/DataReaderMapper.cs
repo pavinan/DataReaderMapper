@@ -13,17 +13,17 @@ namespace DataReaderMapper
     {
 
         private readonly Dictionary<string, PropertyDetails> propertyCache = new Dictionary<string, PropertyDetails>();
-        
+
         private DataReaderMap()
         {
-            
+
         }
 
         public static DataReaderMap<T> CreateMap()
         {
             var map = new DataReaderMap<T>();
 
-            var type = typeof(T);            
+            var type = typeof(T);
 
             foreach (var prop in type.GetProperties())
             {
@@ -47,8 +47,8 @@ namespace DataReaderMapper
                     details.Converter = converterAttr.FirstOrDefault();
                 }
 
-                
-                    map.propertyCache.Add(name, details);
+
+                map.propertyCache.Add(name, details);
 
             }
 
@@ -70,7 +70,7 @@ namespace DataReaderMapper
                 {
                     var value = reader[prop.Key];
 
-                    if (value != null)
+                    if (value != null && value != DBNull.Value)
                     {
                         if (prop.Value.Converter != null)
                         {
