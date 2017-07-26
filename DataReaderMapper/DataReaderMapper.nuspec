@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Bharat.DataReaderMapper</id>
+    <version>$version$</version>
+    <title>Bharat.DataReaderMapper</title>
+    <authors>Bharat</authors>
+    <owners>Bharat</owners>    
+    <projectUrl>https://github.com/pavinan/DataReaderMapper</projectUrl>    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Library for auto mapping datareader to class.</description>
+    <releaseNotes>First Release.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>DataReader Map</tags>
+  </metadata>
+</package>
