@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Attributes\ColumnNameAttribute.cs" />
     <Compile Include="Attributes\ValueConverterAttribute.cs" />
+    <Compile Include="DatareaderExtensions.cs" />
     <Compile Include="DataReaderMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
