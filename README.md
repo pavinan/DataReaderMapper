@@ -15,4 +15,14 @@ var list = (new DataTable()).CreateDataReader().ProjectToEnumerable<Employee>().
 var mapper = DataReaderMap<Employee>.CreateMap();
 var reader = (new DataTable()).CreateDataReader(); //example
 var list = mapper.ProjectToEnumerable(reader).ToList();
+
+class Employee
+{
+    [Int32ValueConverter]
+    [ColumnName("employeeID")]
+    public int Id { set; get; }
+    public string Name { get; set; }
+    public DateTime AddedAt { set; get; }
+    public DateTime UpdatedAt { set; get; }
+}
 ```
