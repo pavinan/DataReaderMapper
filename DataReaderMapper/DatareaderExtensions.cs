@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Bharat.DataReaderMapper;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataReaderMapper
+namespace System.Data
 {
     public static class DatareaderExtensions
     {

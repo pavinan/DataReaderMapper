@@ -1,4 +1,4 @@
-﻿using DataReaderMapper.Attributes;
+﻿using Bharat.DataReaderMapper.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataReaderMapper
+namespace Bharat.DataReaderMapper
 {
     public class DataReaderMap<T> where T : new()
     {

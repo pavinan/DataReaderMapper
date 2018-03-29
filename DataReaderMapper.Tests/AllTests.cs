@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using DataReaderMapper.Attributes;
+using Bharat.DataReaderMapper.Attributes;
 using System.Data;
 using System.Data.SqlClient;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace DataReaderMapper.Tests
+namespace Bharat.DataReaderMapper.Tests
 {
     [TestClass]
     public class AllTests

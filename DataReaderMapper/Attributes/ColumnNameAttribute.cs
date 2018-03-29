@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataReaderMapper.Attributes
+namespace Bharat.DataReaderMapper.Attributes
 {
     public class ColumnNameAttribute : Attribute
     {

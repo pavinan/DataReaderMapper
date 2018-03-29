@@ -6,7 +6,7 @@
     <ProjectGuid>{94FD9137-5C97-445D-A6D9-1C6C6B034B43}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataReaderMapper.Tests</RootNamespace>
+    <RootNamespace>Bharat.DataReaderMapper.Tests</RootNamespace>
     <AssemblyName>DataReaderMapper.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
