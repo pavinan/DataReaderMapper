@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Bharat.DataReaderMapper</RootNamespace>
-    <AssemblyName>DataReaderMapper</AssemblyName>
+    <AssemblyName>Bharat.DataReaderMapper</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
