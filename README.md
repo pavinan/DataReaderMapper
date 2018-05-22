@@ -16,7 +16,7 @@ var mapper = DataReaderMap<Employee>.CreateMap();
 var reader = (new DataTable()).CreateDataReader(); //example
 var list = mapper.ProjectToEnumerable(reader).ToList();
 
-class Employee
+public class Employee
 {
     [Int32ValueConverter]
     [ColumnName("employeeID")]
