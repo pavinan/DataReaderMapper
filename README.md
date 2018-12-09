@@ -1,7 +1,7 @@
 # DataReaderMapper
 
 [![Build status](https://ci.appveyor.com/api/projects/status/x74id6uv4mqx6dg5/branch/master?svg=true)](https://ci.appveyor.com/project/pavinan/datareadermapper/branch/master)
-
+[![Build status](https://pavinan.visualstudio.com/Public/_apis/build/status/pavinan.DataReaderMapper)](https://pavinan.visualstudio.com/Public/_build/latest?definitionId=10)
 
 Nuget link [https://www.nuget.org/packages/Bharat.DataReaderMapper/](https://www.nuget.org/packages/Bharat.DataReaderMapper/)
 
